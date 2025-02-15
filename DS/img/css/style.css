@@ -121,7 +121,7 @@ p {
     margin:10px;
 }
 .small-bg{
-    border:#6f679a 2px dashed;
+    border:#6F91C2 2px dashed;
     border-radius:11px;
     background-color: ;
 
@@ -136,8 +136,13 @@ p {
     z-index: -1000;
 }
 
+.dark-purplee-bg{
+    background-color:#6f679a;
+    z-index: -1000;
+}
+
 .dark-purple-bg2{
-    background-image: linear-gradient(to bottom, #6f679a, #6f679a), linear-gradient(to bottom, #ff4d43, #ff4d43), radial-gradient(circle at 52% 42%, #0e7da5, #015c7d 22%);
+    background-image: linear-gradient(to bottom, #6f679a, #6f679a), linear-gradient(to bottom, #ff4d43, #ff4d43), radial-gradient(circle at 52% 42%, #6f679a, #6f679a 22%);
    
 }
 .accent-color{
@@ -296,6 +301,70 @@ ul.tsl-bonus-bullets li{
 
 
 
+/* prices */
+
+.price-box {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.price-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pricebox-price-text {
+    font-size: 24px;
+    color: #333;
+}
+
+.original-price {
+    color: #ffffff;
+    text-decoration: line-through;
+}
+
+.discounted-price {
+    color: #040404;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px; /* Rounded pill shape */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.highlighted {
+    border: 2px solid #ffffff;
+    background-color: #f9f9f9;
+}
+
+.card-product {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
 
 .features-section {
     display: flex;
@@ -409,7 +478,7 @@ h3.smaller{
     background-color: #f5f5f5;
 }
 .blue-circles{
-    background-image:radial-gradient(circle at 50% 59%, #fcfcfc, #695ab8 30%, #6f679a 84%);
+    background-image:radial-gradient(circle at 50% 59%, #aa55c0, #6F91C2 30%, #6f679a 84%);  
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -827,14 +896,60 @@ background-image: url(../img/white-bg.jpg);
     }
 }
     
+/* 
+shipping */
+.bonus-bg {
+    background-color: #6F91C2; /* Dark background for contrast */
+    padding: 20px;
+}
 
-        .bonus-bg{
-            background-image:  radial-gradient(circle at 50% 59%, #fcfcfc, #695ab8 27%, #6f679a 75%);
+.bonus-white-border {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
 
-        }
+.dark-purple-bgg {
+    background-color: #1f2937; /* Dark purple background */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bonuses {
+    background-color: #f8f9fa; /* Light background for bonuses */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.bonuses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bonuses ul li {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #1f2937;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1f2937cc;
+}
+
+
+      
         
         .video-bg{
-            background-image: radial-gradient(circle at 50% 59%, #fcfcfc, #695ab8 27%, #6f679a 75%);
+            background-image: radial-gradient(circle at 50% 59%, #fcfcfc, #6F91C2 27%, #6f679a 75%);
             padding-bottom: 50px!important ;
         }
         .bonus-green-border{
