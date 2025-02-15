@@ -160,16 +160,39 @@ p {
     position:absolute;
     right:0;
 }
-.order-now-button{
-    max-width: 155px;
-    height: 52px;
-    transition: .5s;
-    margin-top: -10px;
-    position: relative;
-    left: -10px;
+
+.rounded-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px; /* Adjust padding as needed */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor on hover */
 }
-.order-now-button:hover{
-    transform: scale(1.05);
+
+.rounded-button:hover {
+    background-color: #3c1fbeb4; /* Darker shade for hover */
+    color: white;
+    text-decoration: none; /* Ensure no underline on hover */
+    transform: none; /* Remove any scaling effect */
+}
+
+.rounded-button:active {
+    background-color: #4A4366; /* Even darker shade for active state */
+}
+
+.rounded-button {
+    border: 2px solid #6F679A; /* Border color matches the background */
+}
+
+.rounded-button:hover {
+    border-color: #5A537A; /* Darker border on hover */
 }
 
 
